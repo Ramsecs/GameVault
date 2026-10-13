@@ -15,7 +15,6 @@ public interface JuegoRepository extends JpaRepository<Juego, Long> {
     List<Juego> findByTituloContainingIgnoreCase(String titulo);
 
     //Select * From juegos Where genero = :genero
-    List<Juego> findByGenero(String genero);
 
     //
     @Query("SELECT j FROM Juego j WHERE LOWER(j.descripcion) LIKE LOWER(CONCAT('%', :palabra, '%'))")
