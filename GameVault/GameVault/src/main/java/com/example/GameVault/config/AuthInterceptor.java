@@ -1,4 +1,4 @@
-package com.tuempresa.tuproyecto.config;
+package com.example.GameVault.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d22f963d-b9b3-4833-b86a-1c49fc39fd51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/model/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/model/Juego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/java/com/example/GameVault/services/JuegoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/formulario.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/juegos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameVault/src/main/resources/templates/layout/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/GameVault/src/main/resources/templates/layout/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/RAMSES/Documents/GitHub/AsignacionMVC",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
