@@ -1,4 +1,4 @@
-package com.example.GameVault.services;
+package com.example.GameVault.service;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;

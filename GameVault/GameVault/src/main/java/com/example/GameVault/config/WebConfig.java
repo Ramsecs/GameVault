@@ -9,6 +9,10 @@ import java.nio.file.Paths;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
+    @Autowired
+    private AuthInterceptor authInterceptor;
+
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         Path uploadDir = Paths.get("src/main/resources/static/uploads");
@@ -17,4 +21,12 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addResourceHandler("/uploads/**")
                 .addResourceLocations("file:/" + uploadPath + "/");
     }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(authInterceptor)
+                .addPathPatterns("/mis-juegos", "/juegos/nuevo", "/juegos/editar/**", "/juegos/eliminar/**")
+                .excludePathPatterns("/", "/juegos", "/login", "/registro", "/styles/**", "/uploads/**");
+    }
+
 }
